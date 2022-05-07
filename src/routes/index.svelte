@@ -4,7 +4,8 @@
 		return Math.floor(Math.random()*number);;
 }
 function randomColor(){
- return 'rgb('+random(255)+','+random(255)+','+random(255)+')';  
+ let color = 'rgb('+random(255)+','+random(255)+','+random(255)+')'; 
+ document.body.style.backgroundColor = color 
 	}
 </script>
 
@@ -15,6 +16,8 @@ function randomColor(){
 	<button on:click={randomColor}>Change color</button>
 </div>
 <p class="foot">Made by MikiWolfe 2022</p>
+
+
 <style>
 	* {
 		margin: 0;
@@ -24,9 +27,10 @@ function randomColor(){
 		text-align: center;
 	}
 	.box {
-		height: 150px;
-		width: 150px;
-		background-color: blue;
+		height: 200px;
+		width: 200px;
+		border: 5px solid red;
+
 	}
 	.foot {
 text-align: center;
