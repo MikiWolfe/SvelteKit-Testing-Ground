@@ -5,20 +5,20 @@
 		return Math.floor(Math.random() * number);
 	};
 
-	const color = () => {
+	const randomColor = () => {
 		let color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
 		console.log(color, '🐱‍👤');
 		document.getElementById('box').style.backgroundColor = color;
 	};
 
-	const size = () => {
-		let size = Math.floor(Math.random() * 501) + 'px';
+	const randomSize = () => {
+		let size = Math.floor(Math.random() * 701) + 'px';
 		console.log(size, '🤘');
 		document.getElementById('box').style.height = size;
 		document.getElementById('box').style.width = size;
 	};
 
-	// const position = () => {
+	// const randomPosition = () => {
 	// 	let randomTop = getRandomNumber(0, winHeight);
 	// 	let randomLeft = getRandomNumber(0, winWidth);
 	// 	let winWidth = onMount.innerWidth;
@@ -27,21 +27,11 @@
 	// 	document.getElementById('box').style.left = randomLeft + 'px';
 	// };
 	const handleClick = () => {
-		color();
-		size();
+		randomColor();
+		randomSize();
+		// randomPosition()
 	};
-	// 	function getRandomPosition(element) {
 
-	// }
-	// window.onload = function() {
-	// 	var img = document.createElement('img');
-	// 	img.setAttribute("style", "position:absolute;");
-	// 	img.setAttribute("src", "some-image.jpg");
-	// 	document.body.appendChild(img);
-	// 	var xy = getRandomPosition(img);
-	// 	img.style.top = xy[0] + 'px';
-	// 	img.style.left = xy[1] + 'px';
-	// }
 </script>
 
 <div class="container">
@@ -52,7 +42,7 @@
 	<div id="box" />
 
 	<button on:click={handleClick}>Click me!</button>
-	<p class="foot">Made by MikiWolfe 2022</p>
+	<p class="foot">Made by MikiWolfe 2022 💕</p>
 </div>
 
 <style>
