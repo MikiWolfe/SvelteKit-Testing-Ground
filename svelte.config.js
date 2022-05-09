@@ -11,11 +11,9 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: dev ? "" : "/SvelteKit-Testing-Ground",
-        },
-        // hydrate the <div id="svelte"> element in src/app.html
-        target: "#svelte"
-    }
+            base: dev ? '' : "/SvelteKit-Testing-Ground",
+        }
+        }
 };
 
 export default config;
