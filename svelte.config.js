@@ -11,7 +11,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: dev ? '' : "/SvelteKit-Testing-Ground",
+            base: dev ? '' : "/magic-box",
         }
         }
 };

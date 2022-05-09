@@ -1,36 +1,51 @@
-# create-svelte
+# Magic Box
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description: 
+A box that changes colors and sizes when the button is clicked 
+Repository name: magic-box
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Table of Contents:
+* [Description](#description)
+* [Installation](#installation)
+* [Licensing](#licensing)
+* [Contributors](#contributors)
+* [Tests](#tests)
+* [Questions](#questions)
 
-## Creating a project
+## Installation 
+```npm i``` on all package.json files  
+## Usage
+Fun?
+## Licensing
+2023 Mikayla B
+Copyright Permission is hereby granted, free of charge, 
+to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, 
+distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
 
-If you're seeing this, you've probably already done this step. Congrats!
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+https://opensource.org/licenses/MIT
+## Contributors
 
-# create a new project in my-app
-npm init svelte my-app
-```
+## Tests
+None
+## Questions
+Please reach out if you have any questions about this application:
+GitHub profile: https://github.com/MikiWolfe
+ 
 
-## Developing
+### Link to Deployed Site
+Link to the deployed site: https://mikiwolfe.github.io/magic-box/
+Link to the repo: https://github.com/MikiWolfe/magic-box
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-https://mikiwolfe.github.io/SvelteKit-Testing-Ground/
+### Image of application
+Link to a screenshot of the application: ![Screenshot](/Screenshot%20.jpg)
