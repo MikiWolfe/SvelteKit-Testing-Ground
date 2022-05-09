@@ -4,33 +4,33 @@
 	const random = (number) => {
 		return Math.floor(Math.random() * number);
 	};
-	const getRandomNumber = (number) => {
-			var x = document.body.offsetHeight-element.clientHeight;
-		var y = document.body.offsetWidth-element.clientWidth;
-		let randomX = (random * x);
-		let randomY = (random * y);
-		return [randomX, randomY];
-	};
 
 	const color = () => {
 		let color = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+		console.log(color, '🐱‍👤');
 		document.getElementById('box').style.backgroundColor = color;
 	};
 
-	const position = () => {
-		let randomTop = getRandomNumber(0, winHeight);
-		let randomLeft = getRandomNumber(0, winWidth);
-		let winWidth = onMount.innerWidth;
-		let winHeight = onMount.innerHeight;
-		document.getElementById('box').style.top = randomTop + 'px';
-		document.getElementById('box').style.left = randomLeft + 'px';
+	const size = () => {
+		let size = Math.floor(Math.random() * 501) + 'px';
+		console.log(size, '🤘');
+		document.getElementById('box').style.height = size;
+		document.getElementById('box').style.width = size;
 	};
+
+	// const position = () => {
+	// 	let randomTop = getRandomNumber(0, winHeight);
+	// 	let randomLeft = getRandomNumber(0, winWidth);
+	// 	let winWidth = onMount.innerWidth;
+	// 	let winHeight = onMount.innerHeight;
+	// 	document.getElementById('box').style.top = randomTop + 'px';
+	// 	document.getElementById('box').style.left = randomLeft + 'px';
+	// };
 	const handleClick = () => {
 		color();
-		position();
+		size();
 	};
 	// 	function getRandomPosition(element) {
-	
 
 	// }
 	// window.onload = function() {
