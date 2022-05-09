@@ -45,9 +45,9 @@
 </script>
 
 <div class="container">
-	<title>Magic color changing box</title>
+	<title>Magic Box</title>
 	<h1>I have no idea what I am doing</h1>
-	<p class="welcome">Hello! Click the button to change the color of the box.</p>
+	<p class="welcome">Hello! Click the button to see the magic.</p>
 
 	<div id="box" />
 
