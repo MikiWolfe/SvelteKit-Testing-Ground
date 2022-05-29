@@ -1,7 +1,7 @@
 # Magic Box
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description: 
-A box that changes colors and sizes when the button is clicked 
+A box that changes colors, sizes, and position on the screen when the button is clicked. 
 Repository name: magic-box
 
 ## Table of Contents:
@@ -15,7 +15,7 @@ Repository name: magic-box
 ## Installation 
 ```npm i``` on all package.json files  
 ## Usage
-Fun?
+Fun? 
 ## Licensing
 2023 Mikayla B
 Copyright Permission is hereby granted, free of charge, 

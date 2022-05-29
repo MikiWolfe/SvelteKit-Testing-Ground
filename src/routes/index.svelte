@@ -12,7 +12,7 @@
 	};
 	// Function to return a random size
 	const randomSize = () => {
-		let size = Math.floor(Math.random() * 701) + 'px';
+		let size = Math.floor(Math.random() * 70) + '%';
 		// console.log(size, '🤘');
 		document.getElementById('box').style.height = size;
 		document.getElementById('box').style.width = size;
@@ -21,10 +21,10 @@
 	// Function to return a random position
 	const randomPosition = () => {
 		let box = document.getElementById('box');
-		let x = Math.floor(Math.random() * 300);
-		let y = Math.floor(Math.random() * 750);
-		box.style.top = x + 'px';
-		box.style.left = y + 'px';
+		let x = Math.floor(Math.random() * 80);
+		let y = Math.floor(Math.random() * 90);
+		box.style.top = x + '%';
+		box.style.left = y + '%';
 	};
 	// onClick function to handle all functions
 	const handleClick = () => {
@@ -39,7 +39,7 @@
 	<h1>I have no idea what I am doing</h1>
 	<p class="welcome">Click the button to see the magic.</p>
 
-	<button on:click={handleClick}>Click me!</button>
+	<button on:click={handleClick}>Click here</button>
 	<p class="foot">Made by MikiWolfe 2022 💕</p>
 	<div id="box" />
 </div>
@@ -65,8 +65,8 @@
 	}
 	#box {
 		position: relative;
-		height: 200px;
-		width: 200px;
+		height: 15%;
+		width: 15%;
 		border: 5px solid black;
 		background-color: rebeccapurple;
 		margin-bottom: 5px;
@@ -77,7 +77,6 @@
 		color: whitesmoke;
 		cursor: pointer;
 		padding: 0.5%;
-		width: 10%;
 		margin-left: 45%;
 		margin-right: 45%;
 		border: 3px white solid;
